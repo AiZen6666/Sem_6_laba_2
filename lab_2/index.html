@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id = 'img'>
+        </div>
+        <div class = "border">
+            <form>
+                <p id = 'str'>
+                </p>
+                <p>
+                    Выходные данные <br>
+                    <label><input type="radio" name="task" id="task1" checked>сторону, высоту к другой стороне и меньший угол</label>
+                    <label><input type="radio" name="task" id="task2">стороны и высоту</label>
+                </p>
+                <p>
+                    <input type ="button" value = "Показать"  onClick="Switch(this.form)">
+                </p>
+                <p>
+                    <div id = "find">Найти:</div><br>
+                    <label><input type="checkbox" id="task3">Неизвестную высоту</label>
+                    <label><input type="checkbox" id="task4">Диагонали</label>
+                    <label><input type="checkbox" id="task5">Площадь</label>
+                    <label><input type="checkbox" id="task6">Угол между диагонали</label>
+                </p>
+                <p>
+                    <input type="button" value="Вычислить" onClick = "calculate(this.form)">
+                    <input type="button" value="Очистить" id = "Clear">
+                </p>
+            </form>
+        </div>
+        <div id="output">
+        </div>
+    </div>
+</body>
+<script src = 'program.js'></script>
+</html>

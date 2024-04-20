@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border{
+    border: solid thin black;
+    padding: 25px
+}
+
+img {
+    width: 50%;
+}
+
+.input {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error{
+    border: solid thin red;
+}
